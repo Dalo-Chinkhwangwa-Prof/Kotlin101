@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         val wineSet: MutableSet<WineK> = mutableSetOf()
-        wineSet.add(WineK(2010, "Rum", "Italy", "Red"))
+        wineSet.add(WineK(2010, "Rum", "Italy", "Blue"))
         wineSet.add(WineK(2000, "Rum", "Italy", "Red"))
 
         if (this::spanish.isInitialized)//'this' being the current class
